@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+.only-section {
+  width: 700px;
+  margin: 0 auto;
+}
+
+sub,
+.formula {
+  color: blue;
+  font-style: italic;
+}
+
+.method-name {
+  color: green;
+}
+
+.code-name {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.first-image {
+  float: left;
+  margin-right: 15px;
+}
+
+.second-image {
+  float: right;
+}
+
+/*second task*/
+
+.wrapper {
+  width: 700px;
+  height: 700px;
+  background-color: #0d5825;
+  margin: 0 auto;
+}
+
+.quote {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.quote-text {
+  color: #fff;
+}
+
+.quote-name {
+  font-style: italic;
+  color: #fff;
+}
+
+blockquote .quote-text:before {
+  content: '«';
+}
+
+blockquote .quote-text:after {
+  content: '»‎';
+}
+
+.card-wrapper {
+  text-align: center;
+}
+
+.card {
+  width: 150px;
+  position: absolute;
+}
+
+.card-first {
+  transform: rotate(-35deg);
+}
+
+.card-second {
+  transform: rotate(-20deg);
+}
+
+.card-third {
+  transform: rotate(-5deg);
+}

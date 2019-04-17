@@ -1,0 +1,76 @@
+/*
+.position {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.position img {
+  position: relative;
+  max-width: 200px;
+  left: 50%;
+  top: 20px;
+}
+
+.absolute {
+  position: relative;
+}
+
+.absolute img {
+  position: absolute;
+}
+
+.fixed img {
+  position: fixed;
+  left: auto;
+  right: 50px;
+}
+*/
+
+/*
+img {
+  max-width: 150px;
+}
+
+.float-left {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+.float-right {
+  float: right;
+  margin: 0 0 15px 15px;
+}
+
+p {
+  overflow: hidden;
+}
+*/
+
+
+.box-hold img {
+  float: left;
+  width: 30%;
+  transition: opacity 2s ease, width 1s linear;
+
+  transition: all 0.2s linear;
+}
+
+.card {
+  float: right;
+  width: 70%;
+}
+
+.box-hold {
+  overflow: hidden;
+}
+
+.box-hold img:hover {
+  opacity: 0;
+  width: 25%;
+}
+
+/*.box-hold:after {
+  content: '';
+  display: table;
+  clear: both;
+}*/

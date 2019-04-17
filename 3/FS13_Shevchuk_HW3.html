@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hello</title>
+  <link rel="stylesheet" href="FS13_Shevchuk_HW3.css">
+</head>
+
+<body>
+  <main>
+    <section class="only-section">
+      <img src="a-level-ico.png" class="first-image">
+      <p>Алиса хочет отправить важное сообщение Бобу </p>
+      <p>Сообщение a = ( a<sub>1</sub>, ..., a<sub>n</sub> ) является последовательностью положительных чисел ( символов )</p>
+      <p>Для сжатия сообщения Алиса хочет использовать <span class="method-name">двоичный код Хаффмана</span></p>
+      <p>Напомним, что двоичный код Хаффмана, или <span class="code-name">двоичный префиксно-свободный код</span> — это функция <span class="formula">f</span>, которая сопоставляет каждому символу сообщения двоичные строки (то есть строки, состоящие только
+        из символов «0» и «1») таким образом, что ни для какой пары различных символов a<sub>i</sub> и a<sub>j</sub> строка <span class="formula">f</span> ( a<sub>i</sub> ) не является префиксом ( a<sub>j</sub> ) (и наоборот)</p>
+      <p>Результатом кодирования сообщения a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> является конкатенация кодов отдельных символов, то есть строка <span class="formula">f</span> ( a<sub>1</sub> ) <span class="formula">f</span> ( a<sub>2</sub> )...
+        ( a<sub>n</sub> )
+        <p>Коды Хаффмана удобны тем, что закодированное сообщение можно легко и однозначно декодировать, если знать код </p>
+        <img src="a-level-ico.png" class="second-image">
+        <p>Код обычно выбирается таким образом, чтобы минимизировать суммарную длину закодированного сообщения, то есть длину строки ( a<sub>1</sub> ) ( a<sub>2</sub> )... ( a<sub>n</sub> )</p>
+        <p>Алиса не хочет посылать сообщение целиком, поскольку это слишком рискованно</p>
+        <p>Вместо этого она выбрала несколько частей сообщения и хочет отправить их по отдельности</p>
+        <p>Для каждой выбранной подстроки a<sub>ki</sub>... a<sub>mi</sub> она хочет найти минимальную длину этой подстроки, закодированной по Хаффману
+          <p>Помогите ей с этой задачей</p>
+    </section>
+
+    <!--Second task
+      Тут я немного заступорилась и не могу понять что делать дальше. если есть направляющий совет - супер) доделаю на выходных дополнительные-->
+
+    <section>
+      <div class="wrapper">
+        <blockquote class="quote">
+          <p class="quote-text">Судьба тасует карты, а мы ими играем</p>
+          <p class="quote-name">Артур Шопенгауэр</p>
+        </blockquote>
+        <div class="card-wrapper">
+          <img src="card01.png" class="card card-first">
+          <img src="card01.png" class="card card-second">
+          <img src="card01.png" class="card card-third">
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

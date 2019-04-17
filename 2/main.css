@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+/*li:nth-child(even) {
+  font-size: 20px;
+}
+
+li:last-child {
+  background-color: red;
+}
+
+li:first-child {
+  color: pink;
+}
+
+li:only-child {
+  background: green;
+}
+
+li:nth-child(3) {
+  padding-left: 30px;
+}
+
+li:not(:first-child) {
+  font-size: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: '\2615';
+  display: inline-block;
+}
+
+li:last-child::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: blue;
+}
+
+li {
+  font-size: 2em;
+}
+
+ul {
+  font-size: 20px;
+}
+*/
+
+.box {
+  width: 200px;
+  height: 50px;
+  border: 5px solid brown;
+  background: green;
+  padding: 20px;
+  margin: 10px;
+  background-image: url(https://images.unsplash.com/photo-1529429617124-95b109e86bb8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  background-size: cover;
+  background-position: center;
+}

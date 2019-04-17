@@ -1,0 +1,101 @@
+/*p {
+  margin: 0;
+}
+.flex-hold {
+  background: yellow;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+
+  align-items: center;
+  align-items: stretch;
+  align-items: flex-end;
+  align-items: baseline;
+  align-items: flex-start;
+
+
+display: flex;
+justify-content: flex-end;
+align-items: center;
+flex-direction: row-reverse;
+
+
+
+}
+
+.box {
+  width: 100px;
+}
+
+.first-box {
+  background: green;
+  align-self: baseline;
+  order: 1;
+}
+
+.second-box {
+  background: red;
+  align-self: flex-end;
+  order: 3;
+}
+
+.third-box {
+  background: black;
+  color: white;
+  order: 2;
+
+}*/
+
+/*.flex {
+    background: #a55;
+    margin: 20px 0;
+    padding: 5px;
+
+    display: flex;
+}
+.flex-itm {
+    background: #5a5;
+    font-size: 50px;
+    color: #eee;
+    margin: 5px;
+    padding: 50px;
+}
+
+.flex-itm:nth-child(1) {
+  order: 3;
+}
+
+.flex-itm:nth-child(2) {
+  order: 2;
+}
+
+.flex-itm:nth-child(3) {
+  order: 4;
+}
+
+.flex-itm:nth-child(4) {
+  order: 1;
+}*/
+
+.flex-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.flex-item {
+  text-align: center;
+  width: 30%;
+  border: 1px solid green;
+}
+
+.flex-item p {
+  text-align: left;
+  padding-left: 10px;
+}
